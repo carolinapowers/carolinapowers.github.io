@@ -221,13 +221,32 @@ article p {
     float: right;
     margin-top: -0.7em;
     color: grey;
+    margin-bottom: 5em;
 }
 
 
 footer {
     clear: both;
-       border-top: 0.1em solid lightgrey;
+    margin-top: 5em;
+    border-top: 0.1em solid lightgrey;
+    padding-top: 1em;
+    height: 150px;
     
+}
+
+footer img {
+    border-radius: 100%;
+    height: 5em;
+    width: 5em;
+    margin-left: 20%;
+}
+
+.footer-info {
+    float: right;
+    margin-right: 20%;
+  
+    color: lightgrey;
+    line-height: 1em;
 }
 
 
