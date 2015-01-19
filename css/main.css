@@ -152,22 +152,55 @@ aside p {
 
 aside ul {
     border-top: 0.1em solid lightgrey;
+    border-bottom: 0.1em solid lightgrey;
     width:60%;
-    
     text-align: left;
+    padding: 2em;
     
 }
 
 aside li {
    display: block;
    text-align: left;  
+    font-family: 'PT Sans', sans-serif;
+    color: lightgrey;
+    padding: 0.5em;
+    margin-left: -2em; 
+    font-size: 1.2em;
+    
+}
+
+.social-icons {
+    border-bottom: 0.1em solid lightgrey;
+    width: 81%;
+    color: grey;
+}
+
+.social-icons i {
+    height: 2em;
+    width: 1.5em;
+    color: grey;
+}
+
+form h3 {
+    color: lightgrey;
+    font-family: 'PT Sans', sans-serif;
+}
+
+input {
+    width: 70%;
+}
+
+form i {
+    color: lightgrey;
 }
     
 
 footer {
     clear: both;
-    
 }
+
+
 
 
 
