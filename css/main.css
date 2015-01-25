@@ -103,6 +103,9 @@ header {
 }
 */
 
+
+
+
 #header {
   background-image: url(http://i61.tinypic.com/iwmcso.jpg);
     background-size: cover;
@@ -117,7 +120,6 @@ header {
 
 .content-wrapper {
     width: 80%;
-    min-width: 500px;
     margin: 0 auto;
 }
 
@@ -280,27 +282,28 @@ footer img{
     padding-right: 0.5em;
 }
 
+/**********Media Query*********/
+
 @media screen and (max-width: 769px) {
     
-    aside {
+aside {
       float:none;
-      width: 100%;
+      width: 90%;
       text-align: center;
     }
 
 
 aside p {
     text-align: center;
-    width: 100%;
+    width: 90%;
 }
 
 
 aside ul {
-    width: 100%;
+    width: 90%;
     border: none;
     text-align: center;
 }
-
 
 
 aside li {
@@ -318,7 +321,7 @@ aside li {
 .social-icons {
     
     border-bottom: none;
-    width: 100%;
+    width: 90%;
 }
     
 .social-icons i {
@@ -336,7 +339,7 @@ input {
     
 .blog-article {
     float: none;
-    width: 100%;
+    width: 90%;
     margin-top: 3em; 
 }    
 
@@ -345,8 +348,37 @@ input {
 }    
 }
 
-
+@media screen and (max-width: 481px){
     
+       
+body {
+    margin: -2em;
+}
+    
+
+
+.profile-pic img {
+    width: 6em;
+    height: 6em;
+    border-size: .8px;
+}
+    
+aside { 
+    margin-top: -4em; 
+}
+    
+    
+blog-article h1 {
+    font-size:.5em; 
+    
+}    
+footer{
+    width: 60%;
+    margin 0 auto;
+}    
+    
+    
+}    
 
 
 
