@@ -251,8 +251,6 @@ padding-left: 10%;
 display:inline-block; 
 }
 
-
-
 footer img{
     border-radius: 100%;
     height: 5em;
@@ -288,14 +286,14 @@ footer img{
     
 aside {
       float:none;
-      width: 90%;
+      width: 100%;
       text-align: center;
     }
 
 
 aside p {
     text-align: center;
-    width: 90%;
+    width: 100%;
 }
 
 
@@ -321,7 +319,7 @@ aside li {
 .social-icons {
     
     border-bottom: none;
-    width: 90%;
+    width: 100%;
 }
     
 .social-icons i {
@@ -339,24 +337,27 @@ input {
     
 .blog-article {
     float: none;
-    width: 90%;
-    margin-top: 3em; 
+    width: 100%;
+    margin-top: 3em auto 0; 
 }    
 
 .blog-article h1 {
     text-align:center;
-}    
+    font-size: 2.5em;
+    line-height:2em;
+}
+   
+
 }
 
 @media screen and (max-width: 481px){
     
-       
-body {
-    margin: -2em;
+
+
+.content-wrapper {
+    width:80%;
 }
     
-
-
 .profile-pic img {
     width: 6em;
     height: 6em;
@@ -367,19 +368,100 @@ aside {
     margin-top: -4em; 
 }
     
-    
-blog-article h1 {
-    font-size:.5em; 
-    
-}    
-footer{
-    width: 60%;
-    margin 0 auto;
-}    
-    
-    
+aside ul {
+    display: none;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    text-align:right;
 }    
 
+aside ul li {
+    padding: 0 1.2em;
+    
+}
+    
+.social-icons {
+    width:100%;
+    text-align: center;
+}    
+
+.social-icons i {
+    height: 2em;
+    width: 1em;
+    text-align: center;
+    padding: 0.3em;
+}    
+    
+    
+.blog-article {
+    width: 90%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+    
+    
+.blog-article h1 {
+    font-size: 2em;
+    line-height:1.5em;
+}
+    
+footer{
+    border: none;
+}   
+
+.footer-container {
+    width: 70%;
+    min-width:300px;
+    text-align: center; 
+}    
+  
+.footer-pic {
+    display:block;
+    float:none;
+    padding-left: 0;
+}
+    
+    
+.footer-pic img {
+    width: 3em;
+    height: 3em;
+
+}    
+
+.footer-info {
+    padding: 0;
+    display: block;
+   text-align: center;
+    margin-left:0;
+    position: relative;
+}
+
+.footer-info h2 {
+    font-size: 1em;
+    text-align: center;
+    margin: 0;
+    color: grey;
+    
+}  
+    
+.footer-info p {
+    font-size: 1em;
+    text-align: center; 
+    margin-top: 0;
+    line-height: 1.5em;
+}  
+    
+.social-icons-footer {
+    text-align: center;
+    padding-left:2em; 
+    
+}
+.social-icons-footer i {
+    height: 1em;
+    width: 1em;
+}
+}
 
 
 
