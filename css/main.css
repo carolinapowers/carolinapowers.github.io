@@ -262,9 +262,10 @@ footer img{
 .footer-info {
     display:inline-block;
     color: lightgrey;
-    line-height: 1em;
+    line-height: 2em;
     position: absolute;
-    margin-left: 10%; 
+    margin-left: 10%;
+    padding-right: 2%;
     clear:both;
   
 }
